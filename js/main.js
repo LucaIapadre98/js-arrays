@@ -62,9 +62,39 @@ console.table(primes);
   
   // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
   // e salvalo nella variabile lewisIndex
-  const lewisIndex = null;
+  const teachers2 = [
+    'Nathan',
+    'Ed',
+    'Fabio',
+    'Phil',
+    'Carlo',
+    'Lewis',
+    'Luca'
+  ]; 
+  console.table(teachers2);
 
+  console.log( teachers2[5])
+  const lewisIndex = (teachers2[5]);
   
   // 8. Verifica se l'array teachers è vuoto
   // e salva il risultato nella variabile isTeachersEmpty
-  const isTeachersEmpty = null;
+  const teachers3 = [
+    'Nathan',
+    'Ed',
+    'Fabio',
+    'Phil',
+    'Carlo',
+    'Lewis',
+    'Luca'
+  ]; 
+
+ if(teachers3.length === 0) {
+    console.log(teachers3);
+ } 
+ else if (teachers3 !== 0){
+    console.log(teachers3);
+ }
+ const isTeachersEmpty = teachers3  !== 0;
+ console.log(isTeachersEmpty);
+ 
+  
