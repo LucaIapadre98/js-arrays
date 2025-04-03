@@ -26,12 +26,12 @@ console.table(primes);
   
   // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
   const lastTeacher = ['Nathan','Ed','Fabio','Phil','Carlo','Lewis','Luca'];
-  lastTeacher.pop(6);
+  lastTeacher.pop();
   console.table(lastTeacher);
   
   // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
   const firstTeacher =  ['Nathan','Ed','Fabio','Phil','Carlo','Lewis','Luca'];
-  firstTeacher.shift(0);
+  firstTeacher.shift();
   console.table(firstTeacher);
   
   // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
@@ -87,14 +87,9 @@ console.table(primes);
     'Lewis',
     'Luca'
   ]; 
-
- if(teachers3.length === 0) {
-    console.log(teachers3);
- } 
- else if (teachers3 !== 0){
-    console.log(teachers3);
- }
- const isTeachersEmpty = teachers3  !== 0;
+ const isTeachersEmpty = teachers3.length;
  console.log(isTeachersEmpty);
+ 
+ 
  
   
